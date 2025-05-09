@@ -1,0 +1,10 @@
+---
+# Configuration file for lvl5 experiment scripts.
+#   Bill Xia
+#   April 27, 2025
+model:
+- llama3
+# - qwen
+prompt_method:
+# - base
+- cot

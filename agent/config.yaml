@@ -1,0 +1,19 @@
+---
+# Configuration file for final experiment scripts.
+#   Bill Xia
+#   March 3, 2025
+model:
+# - o1-mini
+- llama3
+- deepseek
+- qwen
+do_split:
+# - True
+- False
+prompt_method:
+- base
+- cot
+# - self-consistency
+encoding:
+- matrix
+- text

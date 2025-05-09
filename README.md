@@ -1,4 +1,4 @@
 # EscGridEnv_Public
-A public repository for `EscGridEnv`, a novel Open AI gym environment designed to test models for embodied insight problem solving.
+A public repository for the code and data associated with my Senior Honors Thesis, titled "Grounding Large Language Models with Natural Language World Models".
 
-I will migrate my code to this repository following my thesis defense on April 25, 2025.
+I am currently in the process of organizing and migrating code from a far-more-disorganized private repository into this one.
