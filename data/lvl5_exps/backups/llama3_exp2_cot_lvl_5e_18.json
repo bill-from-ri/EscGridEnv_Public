@@ -1,0 +1,44 @@
+{
+    "explore_steps": 0,
+    "exploit_steps": 17,
+    "tests": [],
+    "all_hyps": [],
+    "bad_hyps": [],
+    "final_hyps": {
+        "green": "The green object is the Goal that the agent must reach.",
+        "brown": "Brown objects are False Walls. The agent can move through False Walls.",
+        "yellow": "The yellow object is a Key. The agent can pick up the Key by moving into its space. While holding the Key, the agent is colored purple.",
+        "cyan": "The cyan object is a KeyDoor. When the agent moves onto this object, the KeyDoor opens and the Key is destroyed. The agent cannot move through the KeyDoor while it is closed."
+    },
+    "completed": false,
+    "solve_plan": "First determine that the green object is the Goal object. Align the agent on the horizontal axis (y=8) since the yellow object, cyan object, and the opening in the enclosure are all at y=8. Since the agent is already at y=8, no action is required. Next, move to pick up the Key by moving RIGHT. Because the agent is at x=5 and the yellow object is at x=13, it must move RIGHT 13 - 5 = 8 times. Then, move to reach the cyan object by moving RIGHT. Because the agent is now at x=13 and the cyan object is at x=18, it must move RIGHT 18 - 13 = 5 times. After picking up the Key, the agent becomes purple. Now, move onto the cyan object which is a KeyDoor. The KeyDoor opens and the Key is destroyed. Next, align the agent on the vertical axis (x=19) by moving UP. Because the green object is at y=12 and the agent is now at y=8, it must move UP 12 - 8 = 4 times. Finally, move to reach the goal (x=19) by moving RIGHT. Because the agent is now at x=18, it must move RIGHT 19 - 18 = 1 time.",
+    "solution": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2
+    ],
+    "tokens": 969,
+    "total_steps": 17,
+    "lvl": "lvl_5e",
+    "iter": 18,
+    "meta": {
+        "model": "llama3",
+        "prompt": "cot",
+        "exp": 2,
+        "lvl": "lvl_5e"
+    }
+}

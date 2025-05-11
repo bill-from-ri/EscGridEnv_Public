@@ -1,0 +1,45 @@
+{
+    "explore_steps": 0,
+    "exploit_steps": 18,
+    "tests": [],
+    "all_hyps": [],
+    "bad_hyps": [],
+    "final_hyps": {
+        "green": "The green object is the Goal that the agent must reach.",
+        "brown": "Brown objects are False Walls. The agent can move through False Walls.",
+        "yellow": "The yellow object is a Key. The agent can pick up the Key by moving into its space. While holding the Key, the agent is colored purple.",
+        "cyan": "The cyan object is a KeyDoor. When the agent moves onto this object, the KeyDoor opens and the Key is destroyed. The agent cannot move through the KeyDoor while it is closed."
+    },
+    "completed": false,
+    "solve_plan": "First determine that the green object is the Goal object. Align the agent on the horizontal axis (y=8) since the yellow object, cyan object and the opening of the enclosure are at y=8. The agent does not need to move in the vertical direction. Next, move the agent to pick up the Key by moving RIGHT. Because the agent is at x=5 and the yellow object is at x=13, it must move RIGHT 13 - 5 = 8 times. Then, move the agent to reach the cyan object by moving RIGHT. The agent is already at x=13, so it does not need to move. Next, open the KeyDoor by moving onto the cyan object. Now that the KeyDoor is opened, move the agent to align on the horizontal axis (y=10) by moving UP. Because the agent is at y=8 and the green object is at y=10, it must move UP 10 - 8 = 2 times. Finally, move the agent to reach the goal (x=19) by moving RIGHT. Because the agent is at x=13, it must move RIGHT 19 - 13 = 6 times.",
+    "solution": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        0,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+    ],
+    "tokens": 948,
+    "total_steps": 18,
+    "lvl": "lvl_5c",
+    "iter": 9,
+    "meta": {
+        "model": "llama3",
+        "prompt": "cot",
+        "exp": 2,
+        "lvl": "lvl_5c"
+    }
+}

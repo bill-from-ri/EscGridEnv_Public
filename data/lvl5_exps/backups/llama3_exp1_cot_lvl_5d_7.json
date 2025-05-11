@@ -1,0 +1,21 @@
+{
+    "explore_steps": 0,
+    "exploit_steps": 0,
+    "tests": [],
+    "all_hyps": [],
+    "bad_hyps": [],
+    "final_hyps": {},
+    "completed": false,
+    "solve_plan": "x_axis_alignment -> y_axis_alignment -> reach_goal_object",
+    "solution": [],
+    "tokens": 485,
+    "total_steps": 0,
+    "lvl": "lvl_5d",
+    "iter": 7,
+    "meta": {
+        "model": "llama3",
+        "prompt": "cot",
+        "exp": 1,
+        "lvl": "lvl_5d"
+    }
+}

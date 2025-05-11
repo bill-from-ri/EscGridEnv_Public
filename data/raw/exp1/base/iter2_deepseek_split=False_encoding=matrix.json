@@ -1,0 +1,133 @@
+[
+    {
+        "explore_steps": 0,
+        "exploit_steps": 11,
+        "tests": [],
+        "all_hyps": [],
+        "bad_hyps": [],
+        "final_hyps": {},
+        "completed": false,
+        "solve_plan": "The agent will move right until it reaches a certain point and then move down.",
+        "solution": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2
+        ],
+        "tokens": 1230,
+        "total_steps": 11,
+        "lvl": "lvl_1"
+    },
+    {
+        "explore_steps": 0,
+        "exploit_steps": 5,
+        "tests": [],
+        "all_hyps": [],
+        "bad_hyps": [],
+        "final_hyps": {},
+        "completed": false,
+        "solve_plan": "The agent should first navigate through the grid by moving in a particular direction until it reaches an optimal position, then make a final move towards the goal.",
+        "solution": [
+            2,
+            2,
+            2,
+            0,
+            2
+        ],
+        "tokens": 1239,
+        "total_steps": 5,
+        "lvl": "lvl_3"
+    },
+    {
+        "explore_steps": 0,
+        "exploit_steps": 5,
+        "tests": [],
+        "all_hyps": [],
+        "bad_hyps": [],
+        "final_hyps": {},
+        "completed": false,
+        "solve_plan": "The agent will first move RIGHT, then RIGHT again, and finally LEFT to reach the goal.",
+        "solution": [
+            2,
+            2,
+            1,
+            1,
+            2
+        ],
+        "tokens": 1225,
+        "total_steps": 5,
+        "lvl": "lvl_5"
+    },
+    {
+        "explore_steps": 0,
+        "exploit_steps": 10,
+        "tests": [],
+        "all_hyps": [],
+        "bad_hyps": [],
+        "final_hyps": {},
+        "completed": false,
+        "solve_plan": "The agent should move right for several steps until it reaches the goal position.",
+        "solution": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+        ],
+        "tokens": 1253,
+        "total_steps": 10,
+        "lvl": "lvl_9"
+    },
+    {
+        "explore_steps": 0,
+        "exploit_steps": 0,
+        "tests": [],
+        "all_hyps": [],
+        "bad_hyps": [],
+        "final_hyps": {},
+        "completed": false,
+        "solve_plan": "Gather all the information from the observation and create a path towards the goal.",
+        "solution": [],
+        "tokens": 1225,
+        "total_steps": 0,
+        "lvl": "lvl_11"
+    },
+    {
+        "explore_steps": 0,
+        "exploit_steps": 11,
+        "tests": [],
+        "all_hyps": [],
+        "bad_hyps": [],
+        "final_hyps": {},
+        "completed": false,
+        "solve_plan": "The agent will proceed in a specific manner to navigate towards the goal by moving right and down in the grid until it reaches the target location.",
+        "solution": [
+            2,
+            2,
+            2,
+            1,
+            2,
+            2,
+            0,
+            2,
+            1,
+            1,
+            2
+        ],
+        "tokens": 1253,
+        "total_steps": 11,
+        "lvl": "lvl_12"
+    }
+]

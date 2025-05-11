@@ -1,0 +1,43 @@
+{
+    "explore_steps": 0,
+    "exploit_steps": 21,
+    "tests": [],
+    "all_hyps": [],
+    "bad_hyps": [],
+    "final_hyps": {},
+    "completed": false,
+    "solve_plan": "First determine that the green object is the Goal object. Align the agent on the vertical axis (y=11) by moving DOWN or UP. Because the agent is at y=8 and the goal is at y=11, it must move DOWN 11 - 8 = 3 times. Next, align the agent on the horizontal axis (x=19) by moving RIGHT. Because the agent is at x=5, it must move RIGHT 14 times and then move RIGHT 4 more times to reach the goal, avoiding the cyan object at (18, 8). Finally, move UP 1 time to enter the cell with the green object.",
+    "solution": [
+        1,
+        2,
+        2,
+        2,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        2,
+        1,
+        2
+    ],
+    "tokens": 627,
+    "total_steps": 21,
+    "lvl": "lvl_5d",
+    "iter": 3,
+    "meta": {
+        "model": "llama3",
+        "prompt": "cot",
+        "exp": 1,
+        "lvl": "lvl_5d"
+    }
+}

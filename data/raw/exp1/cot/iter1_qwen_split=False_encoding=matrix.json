@@ -1,0 +1,142 @@
+[
+    {
+        "explore_steps": 0,
+        "exploit_steps": 1,
+        "tests": [],
+        "all_hyps": [],
+        "bad_hyps": [],
+        "final_hyps": {},
+        "completed": false,
+        "solve_plan": "From the given grid, we can see that the Agent is at (6,5) and the Green object (which usually represents the goal in such scenarios) is located at (19,20). The agent needs to move right 13 times (from x=6 to x=19), then it has to move down 15 times (from y=5 to y=20) to reach the Goal object. However, since there's a brown border that blocks direct movement between these points, the agent must find an opening or an alternative route. From the observation, there is an opening at (18,13), but this doesn't directly connect to the agent's initial position or the goal. Assuming we need to use this opening for navigating around the obstacle: first move right until reaching x=17 and then move down to y=13 to reach the opening, move through it, then continue moving in a straight line towards the Goal.",
+        "solution": [
+            2
+        ],
+        "tokens": 1605,
+        "total_steps": 1,
+        "lvl": "lvl_1"
+    },
+    {
+        "explore_steps": 0,
+        "exploit_steps": 12,
+        "tests": [],
+        "all_hyps": [],
+        "bad_hyps": [],
+        "final_hyps": {},
+        "completed": false,
+        "solve_plan": "From the observation, we see that the agent is located at a cell containing 'agent', which in this context means (5,6). The goal object appears to be denoted by 'green'. Its position is identified as (13, 9) from its corresponding grid coordinates. To move horizontally closer to x=13, first calculate the number of steps needed: the agent needs to move RIGHT 7 times (since 13 - 6 = 7). Then for vertical alignment to reach y=9, count the necessary moves DOWN: it will need to move DOWN 4 times (as 9 - 5 = 4). Hence, first move right seven spaces, then move down four spaces.",
+        "solution": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            2,
+            2,
+            2,
+            2
+        ],
+        "tokens": 1586,
+        "total_steps": 12,
+        "lvl": "lvl_3"
+    },
+    {
+        "explore_steps": 0,
+        "exploit_steps": 8,
+        "tests": [],
+        "all_hyps": [],
+        "bad_hyps": [],
+        "final_hyps": {},
+        "completed": false,
+        "solve_plan": "Identify that the green object is the goal object. Since there's an enclosure of brown objects and only the agent, yellow, cyan, and the green goal are outside this area with the agent at (5,6) and the goal at (9,7), first move to align on the vertical axis (y=7). The agent needs to move DOWN once because it is currently on y=6. Next, move horizontally to x=9 by moving RIGHT 4 times.",
+        "solution": [
+            1,
+            2,
+            0,
+            2,
+            2,
+            2,
+            2,
+            2
+        ],
+        "tokens": 1532,
+        "total_steps": 8,
+        "lvl": "lvl_5"
+    },
+    {
+        "explore_steps": 0,
+        "exploit_steps": 5,
+        "tests": [],
+        "all_hyps": [],
+        "bad_hyps": [],
+        "final_hyps": {},
+        "completed": false,
+        "solve_plan": "First, identify the Goal object in this environment. Observing the grid provided, it is clear that each color could be a potential goal; however, since no specific color was designated as the Goal in your original example and to adhere strictly to given instructions, we'll assume the first encountered non-brown colored cell (excluding the agent's location) is the Goal object. In this case, 'blue' is the first distinct color at coordinates (6,4). \n\nNow, with the goal identified as the blue square located at (6, 4), the plan to reach it is as follows: \n1. Align the agent on the horizontal axis by moving DOWN. The agent needs to move from y=3 (agent's current position) down to y=4 (blue cell). So, move DOWN once.\n2. Next, move LEFT horizontally until reaching x=4. Since the agent is currently at x=2, it must move LEFT 4 - 2 = 2 times.",
+        "solution": [
+            1,
+            2,
+            1,
+            2,
+            2
+        ],
+        "tokens": 1641,
+        "total_steps": 5,
+        "lvl": "lvl_9"
+    },
+    {
+        "explore_steps": 0,
+        "exploit_steps": 18,
+        "tests": [],
+        "all_hyps": [],
+        "bad_hyps": [],
+        "final_hyps": {},
+        "completed": false,
+        "solve_plan": "First, identify that the goal is the green square located at (17, 8). To align with the x-coordinate of the goal, the agent needs to move DOWN from y=5 to y=8, requiring exactly 3 moves down. From there, it needs to move RIGHT from x=3 to x=17, which requires moving RIGHT 14 times.",
+        "solution": [
+            0,
+            2,
+            2,
+            2,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+        ],
+        "tokens": 1537,
+        "total_steps": 18,
+        "lvl": "lvl_11"
+    },
+    {
+        "explore_steps": 0,
+        "exploit_steps": 6,
+        "tests": [],
+        "all_hyps": [],
+        "bad_hyps": [],
+        "final_hyps": {},
+        "completed": false,
+        "solve_plan": "First, identify that any non-brown colored space next to the agent is the goal based on its distinct color. Here the cyan colored square signifies the goal since it's a unique color and not brown. The current position of the agent is at (6,5), while the cyan cell indicating the goal object is located at (9,7). To align vertically with the Goal object, move DOWN 2 times as there are two rows between y=5 and y=7. Then to reach horizontally across, move RIGHT twice to account for x moving from 6 to 8, since right movement won't directly land on target but it'll be followed by another right action placing agent at the Goal object's position.",
+        "solution": [
+            1,
+            2,
+            2,
+            0,
+            2,
+            2
+        ],
+        "tokens": 1585,
+        "total_steps": 6,
+        "lvl": "lvl_12"
+    }
+]

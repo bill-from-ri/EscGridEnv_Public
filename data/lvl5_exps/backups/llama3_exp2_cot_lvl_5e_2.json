@@ -1,0 +1,45 @@
+{
+    "explore_steps": 0,
+    "exploit_steps": 18,
+    "tests": [],
+    "all_hyps": [],
+    "bad_hyps": [],
+    "final_hyps": {
+        "green": "The green object is the Goal that the agent must reach.",
+        "brown": "Brown objects are False Walls. The agent can move through False Walls.",
+        "yellow": "The yellow object is a Key. The agent can pick up the Key by moving into its space. While holding the Key, the agent is colored purple.",
+        "cyan": "The cyan object is a KeyDoor. When the agent moves onto this object, the KeyDoor opens and the Key is destroyed. The agent cannot move through the KeyDoor while it is closed."
+    },
+    "completed": false,
+    "solve_plan": "First determine that the green object is the Goal object. Align the agent on the horizontal axis (y=8) since it's already aligned. Next, pick up the yellow key by moving RIGHT. Because the agent is at x=5, it must move RIGHT 13 - 5 = 8 times to reach the yellow key. Then, move DOWN to align with the cyan KeyDoor on the vertical axis (x=18). Since the agent will be at y=7 after picking up the key, it must move DOWN 1 time. Next, open the KeyDoor by moving RIGHT onto the cyan object. Finally, move DOWN to reach the goal (y=12) because the agent is currently at y=8, it must move DOWN 4 times.",
+    "solution": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+    ],
+    "tokens": 870,
+    "total_steps": 18,
+    "lvl": "lvl_5e",
+    "iter": 2,
+    "meta": {
+        "model": "llama3",
+        "prompt": "cot",
+        "exp": 2,
+        "lvl": "lvl_5e"
+    }
+}

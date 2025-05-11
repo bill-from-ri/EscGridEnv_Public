@@ -1,0 +1,40 @@
+{
+    "explore_steps": 0,
+    "exploit_steps": 18,
+    "tests": [],
+    "all_hyps": [],
+    "bad_hyps": [],
+    "final_hyps": {},
+    "completed": true,
+    "solve_plan": "First determine that the green object is the Goal object. Align the agent on the horizontal axis (y=10) by moving DOWN or UP. Because the agent is at y=8 and the goal is at y=10, it must move DOWN 10 - 8 = 2 times. Next, align the agent on the vertical axis (x=19) by moving RIGHT. Because the agent is at x=5, it must move RIGHT 19 - 5 = 14 times. Finally, move the agent to reach the goal.",
+    "solution": [
+        1,
+        2,
+        2,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+    ],
+    "tokens": 604,
+    "total_steps": 18,
+    "lvl": "lvl_5c",
+    "iter": 14,
+    "meta": {
+        "model": "llama3",
+        "prompt": "cot",
+        "exp": 1,
+        "lvl": "lvl_5c"
+    }
+}

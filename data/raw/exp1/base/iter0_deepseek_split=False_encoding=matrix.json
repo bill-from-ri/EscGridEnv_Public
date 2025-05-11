@@ -1,0 +1,143 @@
+[
+    {
+        "explore_steps": 0,
+        "exploit_steps": 19,
+        "tests": [],
+        "all_hyps": [],
+        "bad_hyps": [],
+        "final_hyps": {},
+        "completed": false,
+        "solve_plan": "The agent will proceed in a spiral pattern towards the goal, ensuring all possible paths are explored until the goal is reached.",
+        "solution": [
+            2,
+            2,
+            1,
+            1,
+            2,
+            0,
+            2,
+            1,
+            1,
+            2,
+            2,
+            2,
+            0,
+            2,
+            0,
+            2,
+            2,
+            0,
+            2
+        ],
+        "tokens": 1244,
+        "total_steps": 19,
+        "lvl": "lvl_1"
+    },
+    {
+        "explore_steps": 0,
+        "exploit_steps": 11,
+        "tests": [],
+        "all_hyps": [],
+        "bad_hyps": [],
+        "final_hyps": {},
+        "completed": false,
+        "solve_plan": "The agent should start at its current position and move towards the goal by taking appropriate actions based on its surroundings.",
+        "solution": [
+            2,
+            1,
+            1,
+            2,
+            1,
+            2,
+            1,
+            1,
+            2,
+            0,
+            2
+        ],
+        "tokens": 1233,
+        "total_steps": 11,
+        "lvl": "lvl_3"
+    },
+    {
+        "explore_steps": 0,
+        "exploit_steps": 5,
+        "tests": [],
+        "all_hyps": [],
+        "bad_hyps": [],
+        "final_hyps": {},
+        "completed": false,
+        "solve_plan": "To reach the goal, the agent should move south until it reaches a certain row and then east or west depending on the position relative to the goal.",
+        "solution": [
+            2,
+            2,
+            2,
+            1,
+            2
+        ],
+        "tokens": 1238,
+        "total_steps": 5,
+        "lvl": "lvl_5"
+    },
+    {
+        "explore_steps": 0,
+        "exploit_steps": 4,
+        "tests": [],
+        "all_hyps": [],
+        "bad_hyps": [],
+        "final_hyps": {},
+        "completed": false,
+        "solve_plan": "Move Right until you reach the Goal.",
+        "solution": [
+            2,
+            2,
+            2,
+            2
+        ],
+        "tokens": 1234,
+        "total_steps": 4,
+        "lvl": "lvl_9"
+    },
+    {
+        "explore_steps": 0,
+        "exploit_steps": 7,
+        "tests": [],
+        "all_hyps": [],
+        "bad_hyps": [],
+        "final_hyps": {},
+        "completed": false,
+        "solve_plan": "The agent will move towards the goal by taking one step at a time and checking for obstacles or changes in the environment that might require adjustments to its path.",
+        "solution": [
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2
+        ],
+        "tokens": 1248,
+        "total_steps": 7,
+        "lvl": "lvl_11"
+    },
+    {
+        "explore_steps": 0,
+        "exploit_steps": 5,
+        "tests": [],
+        "all_hyps": [],
+        "bad_hyps": [],
+        "final_hyps": {},
+        "completed": false,
+        "solve_plan": "The agent will move towards the Goal using a greedy approach: always move right if possible, then down, then left, then up, and repeat until reaching the goal.",
+        "solution": [
+            2,
+            2,
+            2,
+            0,
+            2
+        ],
+        "tokens": 1253,
+        "total_steps": 5,
+        "lvl": "lvl_12"
+    }
+]

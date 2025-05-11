@@ -1,0 +1,42 @@
+{
+    "explore_steps": 0,
+    "exploit_steps": 20,
+    "tests": [],
+    "all_hyps": [],
+    "bad_hyps": [],
+    "final_hyps": {},
+    "completed": false,
+    "solve_plan": "]=> ",
+    "solution": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        0,
+        2,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        2
+    ],
+    "tokens": 510,
+    "total_steps": 20,
+    "lvl": "lvl_5d",
+    "iter": 5,
+    "meta": {
+        "model": "llama3",
+        "prompt": "cot",
+        "exp": 1,
+        "lvl": "lvl_5d"
+    }
+}

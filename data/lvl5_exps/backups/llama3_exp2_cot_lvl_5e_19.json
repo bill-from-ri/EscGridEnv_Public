@@ -1,0 +1,51 @@
+{
+    "explore_steps": 0,
+    "exploit_steps": 24,
+    "tests": [],
+    "all_hyps": [],
+    "bad_hyps": [],
+    "final_hyps": {
+        "green": "The green object is the Goal that the agent must reach.",
+        "brown": "Brown objects are False Walls. The agent can move through False Walls.",
+        "yellow": "The yellow object is a Key. The agent can pick up the Key by moving into its space. While holding the Key, the agent is colored purple.",
+        "cyan": "The cyan object is a KeyDoor. When the agent moves onto this object, the KeyDoor opens and the Key is destroyed. The agent cannot move through the KeyDoor while it is closed."
+    },
+    "completed": false,
+    "solve_plan": "First determine that the green object is the Goal object. Because there is a cyan KeyDoor at (18, 8) blocking the path to the goal, and a yellow Key at (13, 8), the agent must first move to pick up the Key by moving RIGHT. Because the agent is at x=5, it must move RIGHT 13 - 5 = 8 times. Next, with the Key, move to the cyan object at (18, 8) to open the door by moving RIGHT. Then, drop down to align on the horizontal axis (y=12) by moving DOWN. Because the agent is at y=8, it must move DOWN 8 - 12 = -4 times, but since you can't move up, you will need to move around the enclosure, so move LEFT until you reach the wall, then move DOWN until you reach the opening at (18, 8), and finally move RIGHT. Next, move the agent to reach the goal (x=19) by moving RIGHT. Because the agent is at x=18, it must move RIGHT 19 - 18 = 1 time.",
+    "solution": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        0,
+        2,
+        2,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        0,
+        2,
+        0,
+        2
+    ],
+    "tokens": 957,
+    "total_steps": 24,
+    "lvl": "lvl_5e",
+    "iter": 19,
+    "meta": {
+        "model": "llama3",
+        "prompt": "cot",
+        "exp": 2,
+        "lvl": "lvl_5e"
+    }
+}

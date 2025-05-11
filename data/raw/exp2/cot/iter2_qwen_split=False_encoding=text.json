@@ -1,0 +1,189 @@
+[
+    {
+        "explore_steps": 0,
+        "exploit_steps": 1,
+        "tests": [],
+        "all_hyps": [],
+        "bad_hyps": [],
+        "final_hyps": {
+            "green": "The goal that the agent must reach.",
+            "brown": "An object that the agent can move through."
+        },
+        "completed": false,
+        "solve_plan": "First, determine that the green object is the Goal object. Since both the agent and the green object are aligned on the horizontal axis (y=8), no vertical movement is needed. Next, calculate the distance between the current x-coordinate of the agent (5) and the x-coordinate of the goal (19). The agent needs to move RIGHT 19 - 5 = 14 times.",
+        "solution": [
+            2
+        ],
+        "tokens": 594,
+        "total_steps": 1,
+        "lvl": "lvl_1"
+    },
+    {
+        "explore_steps": 0,
+        "exploit_steps": 2,
+        "tests": [],
+        "all_hyps": [],
+        "bad_hyps": [],
+        "final_hyps": {
+            "green": "The goal that the agent must reach.",
+            "brown": "An object that the agent can move through.",
+            "orange": "An object that the agent can push around.",
+            "pink": "When an orange object is pushed onto this object, the blue object disappears.",
+            "blue": "When an orange object is pushed onto the pink object, this object disappears."
+        },
+        "completed": false,
+        "solve_plan": "First determine that the green object at (19, 9) is the Goal object.\n\nStep 1: Align the agent on the same row as the goal by moving DOWN once because the agent needs to move from y=8 to y=9 where the goal is located. \n\nStep 2: Move horizontally towards the green object at (19, 9). To do this, push the orange object from position (9, 8) onto the pink object at (12, 8), causing the blue object at (18, 9) to disappear, opening up a path. \n\nStep 3: Move right towards the goal until reaching x=19.",
+        "solution": [
+            0,
+            2
+        ],
+        "tokens": 768,
+        "total_steps": 2,
+        "lvl": "lvl_3"
+    },
+    {
+        "explore_steps": 0,
+        "exploit_steps": 1,
+        "tests": [],
+        "all_hyps": [],
+        "bad_hyps": [],
+        "final_hyps": {
+            "green": "The green object is the Goal that the agent must reach.",
+            "brown": "Brown objects are False Walls. The agent can move through False Walls.",
+            "yellow": "The yellow object is a Key. The agent can pick up the Key by moving into its space. While holding the Key, the agent is colored purple.",
+            "cyan": "The cyan object is a KeyDoor. When the agent moves onto this object, the KeyDoor opens and the Key is destroyed. The agent cannot move through the KeyDoor while it is closed."
+        },
+        "completed": false,
+        "solve_plan": "The goal is to reach the green (Goal) object located at (19, 8). First, identify that a yellow (Key) object exists at (13, 8), and a cyan (KeyDoor) object is at (18, 8). Since there's a KeyDoor in the way of reaching the goal, the agent must first navigate to pick up the Key before proceeding. The plan involves moving right to reach the Key, then using it to pass through the KeyDoor, and finally continuing on to the Goal object.",
+        "solution": [
+            2
+        ],
+        "tokens": 812,
+        "total_steps": 1,
+        "lvl": "lvl_5"
+    },
+    {
+        "explore_steps": 0,
+        "exploit_steps": 2,
+        "tests": [],
+        "all_hyps": [],
+        "bad_hyps": [],
+        "final_hyps": {
+            "green": "The goal that the agent must reach.",
+            "brown": "An object that the agent can move through.",
+            "orange": "An object that the agent can push around.",
+            "pink": "When an orange object is pushed onto this object, the blue object disappears.",
+            "blue": "When an orange object is pushed onto the pink object, this object disappears.",
+            "yellow": "When the agent moves onto this object, the agent turns purple.",
+            "cyan": "When the agent is purple and moves onto this object, this object disappears. The agent then stops being purple."
+        },
+        "completed": false,
+        "solve_plan": "First determine that the green object is the Goal object located at (19, 9). Align the agent on the horizontal axis (y=9) by moving DOWN until it reaches y-coordinate 9, which requires moving down 1 time. Next, move the agent to x-coordinate 19 horizontally while avoiding or pushing orange objects as necessary: From current position (5, 9), move RIGHT until reaching x-coordinate 6 and then push any orange blocks in the way. Continue moving RIGHT after clearing each column with an obstructing object till arriving at x-coordinate 19.",
+        "solution": [
+            1,
+            2
+        ],
+        "tokens": 1031,
+        "total_steps": 2,
+        "lvl": "lvl_9"
+    },
+    {
+        "explore_steps": 0,
+        "exploit_steps": 30,
+        "tests": [],
+        "all_hyps": [],
+        "bad_hyps": [],
+        "final_hyps": {
+            "green": "The goal that the agent must reach.",
+            "brown": "An object that the agent can move through.",
+            "orange": "An object that the agent can push around.",
+            "pink": "When an orange object is pushed onto this object, the blue object disappears.",
+            "blue": "When an orange object is pushed onto the pink object, this object disappears.",
+            "grey": "A wall that the agent cannot pass through."
+        },
+        "completed": false,
+        "solve_plan": "The goal of the agent is to reach the green object located at (19, 9). However, there are obstacles in the way: a blue object at (18, 9) and walls directly around the goal location. The plan should first move towards an orange object that can be used as an intermediary step by pushing it onto a pink object to remove a potential obstacle, specifically the blue object blocking access to the final destination.\n\nFirst, align with the orange object horizontally (y=6) by moving DOWN 1 time from y=8. Move RIGHT 8 times to reach x=13 where the orange object is located. Push the orange object onto the pink object at (1, 12), which is not feasible as it's too far and there are walls in between so instead move towards the blue object directly.\n\nNext, go LEFT from the current position till you find a way around the blue box i.e., move UP once to reach x=13, y=5 and then move LEFT 12 times to go around any blocking objects or use another orange block if available nearby for pushing. Alternatively, push the orange block directly onto the pink (if it\u2019s within range) from a closer distance after moving down/right.\n\nLastly, move towards the green object: Move DOWN from y=5, 9-5 = 4 times to align vertically with goal and then move RIGHT from x=13, 19-13=6 times. This sequence will clear obstacles and lead the agent directly to the goal.",
+        "solution": [
+            1,
+            2,
+            0,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            2,
+            2,
+            2,
+            2
+        ],
+        "tokens": 1184,
+        "total_steps": 30,
+        "lvl": "lvl_11"
+    },
+    {
+        "explore_steps": 0,
+        "exploit_steps": 25,
+        "tests": [],
+        "all_hyps": [],
+        "bad_hyps": [],
+        "final_hyps": {
+            "green": "The goal that the agent must reach.",
+            "brown": "An object that the agent can move through.",
+            "orange": "An object that the agent can push around. When pushed onto a yellow object, this object becomes purple.",
+            "yellow": "When the agent moves onto this object, the agent turns purple.",
+            "cyan": "When a purple object or agent moves onto this object, this object disappears and the purple entity reverts to its original color.",
+            "grey": "A wall that the agent cannot pass through."
+        },
+        "completed": false,
+        "solve_plan": "First, identify the goal cell as (19, 9) since it contains a green object. To get there, start by moving directly down from y=8 to reach y=9, which is adjacent to the yellow object at (13, 9). Move DOWN 5 times to align with y=9 first and then move right towards x=19 while avoiding grey objects that block the way.\nMove DOWN to (6, 8).\nMove DOWN to (7, 8).\nMove DOWN to (8, 8).\nMove DOWN to (9, 8).\nMove DOWN to reach (10, 8) and then move RIGHT until (10, 13), avoiding obstacles.\nContinue moving RIGHT over orange objects that can be pushed if necessary until reaching the opening at x=18. Pass through brown enclosure at (18, 7) and continue right to (19, 9).",
+        "solution": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            0,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+        ],
+        "tokens": 1146,
+        "total_steps": 25,
+        "lvl": "lvl_12"
+    }
+]

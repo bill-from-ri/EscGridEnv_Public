@@ -1,0 +1,36 @@
+{
+    "explore_steps": 0,
+    "exploit_steps": 14,
+    "tests": [],
+    "all_hyps": [],
+    "bad_hyps": [],
+    "final_hyps": {},
+    "completed": true,
+    "solve_plan": "First determine that the green object is the Goal object. Since the agent and the goal are already aligned on the horizontal axis (y=8), no vertical movement is required. Next, move the agent to reach the goal (x=19) by moving RIGHT. Because the agent is at x=5, it must move RIGHT 19 - 5 = 14 times.",
+    "solution": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+    ],
+    "tokens": 573,
+    "total_steps": 14,
+    "lvl": "lvl_5",
+    "iter": 9,
+    "meta": {
+        "model": "llama3",
+        "prompt": "cot",
+        "exp": 1,
+        "lvl": "lvl_5"
+    }
+}

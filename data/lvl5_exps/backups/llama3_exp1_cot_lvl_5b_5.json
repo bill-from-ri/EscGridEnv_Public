@@ -1,0 +1,39 @@
+{
+    "explore_steps": 0,
+    "exploit_steps": 17,
+    "tests": [],
+    "all_hyps": [],
+    "bad_hyps": [],
+    "final_hyps": {},
+    "completed": true,
+    "solve_plan": "My plan is to first determine that the green object is the Goal object. Since the green object is located at (19, 9) and the agent is currently at (5, 8), I need to align the agent on the vertical axis (y=9) by moving DOWN. Because the agent is at y=8, it must move DOWN 1 time. Next, move the agent to reach the goal (x=19) by moving RIGHT. Because the agent is at x=5, it must move RIGHT 14 times.",
+    "solution": [
+        1,
+        2,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+    ],
+    "tokens": 607,
+    "total_steps": 17,
+    "lvl": "lvl_5b",
+    "iter": 5,
+    "meta": {
+        "model": "llama3",
+        "prompt": "cot",
+        "exp": 1,
+        "lvl": "lvl_5b"
+    }
+}

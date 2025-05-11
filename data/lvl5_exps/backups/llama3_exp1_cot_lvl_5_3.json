@@ -1,0 +1,21 @@
+{
+    "explore_steps": 0,
+    "exploit_steps": 0,
+    "tests": [],
+    "all_hyps": [],
+    "bad_hyps": [],
+    "final_hyps": {},
+    "completed": false,
+    "solve_plan": "](https://github.com/ ",
+    "solution": [],
+    "tokens": 483,
+    "total_steps": 0,
+    "lvl": "lvl_5",
+    "iter": 3,
+    "meta": {
+        "model": "llama3",
+        "prompt": "cot",
+        "exp": 1,
+        "lvl": "lvl_5"
+    }
+}

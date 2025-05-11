@@ -1,0 +1,41 @@
+{
+    "explore_steps": 0,
+    "exploit_steps": 19,
+    "tests": [],
+    "all_hyps": [],
+    "bad_hyps": [],
+    "final_hyps": {},
+    "completed": true,
+    "solve_plan": "Evaluate the observation and identify the goal object as the green object located at (19,11). Determine that the agent needs to align itself on the vertical axis with the goal object by moving DOWN. Since the agent is currently at y=8 and the goal object is at y=11, it must move DOWN 11 - 8 = 3 times. Next, move the agent to reach the goal (x=19) by moving RIGHT. Because the agent is currently at x=5, it must move RIGHT 19 - 5 = 14 times.",
+    "solution": [
+        1,
+        2,
+        2,
+        2,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+    ],
+    "tokens": 610,
+    "total_steps": 19,
+    "lvl": "lvl_5d",
+    "iter": 6,
+    "meta": {
+        "model": "llama3",
+        "prompt": "cot",
+        "exp": 1,
+        "lvl": "lvl_5d"
+    }
+}

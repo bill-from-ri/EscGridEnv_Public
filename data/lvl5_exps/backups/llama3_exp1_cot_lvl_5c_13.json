@@ -1,0 +1,39 @@
+{
+    "explore_steps": 0,
+    "exploit_steps": 17,
+    "tests": [],
+    "all_hyps": [],
+    "bad_hyps": [],
+    "final_hyps": {},
+    "completed": false,
+    "solve_plan": "First determine that the green object is the Goal object. Align the agent on the vertical axis (x=19) by moving RIGHT until it reaches the opening in the enclosure at (18, 8). Because the agent is at x=5, it must move RIGHT 13 times to reach the opening. Next, move DOWN to align with the goal object's y-axis. The agent needs to move DOWN 2 times since it's currently at y=8 and the goal is at y=10. Finally, move RIGHT once more to reach the goal (x=19).",
+    "solution": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        0,
+        2
+    ],
+    "tokens": 612,
+    "total_steps": 17,
+    "lvl": "lvl_5c",
+    "iter": 13,
+    "meta": {
+        "model": "llama3",
+        "prompt": "cot",
+        "exp": 1,
+        "lvl": "lvl_5c"
+    }
+}

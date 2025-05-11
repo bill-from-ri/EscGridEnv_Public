@@ -1,0 +1,52 @@
+{
+    "explore_steps": 0,
+    "exploit_steps": 25,
+    "tests": [],
+    "all_hyps": [],
+    "bad_hyps": [],
+    "final_hyps": {
+        "green": "The green object is the Goal that the agent must reach.",
+        "brown": "Brown objects are False Walls. The agent can move through False Walls.",
+        "yellow": "The yellow object is a Key. The agent can pick up the Key by moving into its space. While holding the Key, the agent is colored purple.",
+        "cyan": "The cyan object is a KeyDoor. When the agent moves onto this object, the KeyDoor opens and the Key is destroyed. The agent cannot move through the KeyDoor while it is closed."
+    },
+    "completed": false,
+    "solve_plan": "First determine that the green object is the Goal object. Since the agent is blocked by a cyan KeyDoor at (18, 8), it must first pick up the yellow Key at (13, 8) to open the KeyDoor. To do this, move RIGHT to align with the Key on the vertical axis (x=13). Because the agent is at x=5, it must move RIGHT 13 - 5 = 8 times. Next, move DOWN to reach the Key (y=8). The agent is already at y=8 so no movement is required. Pick up the Key by moving into its space. Now that the agent has the Key, move LEFT to align with the KeyDoor on the vertical axis (x=18). Because the agent is at x=13, it must move LEFT 13 - 18 = -5 times, but since we can't move left, we'll move RIGHT -5 = 5 times. Next, move DOWN to reach the KeyDoor (y=8). The agent is already at y=8 so no movement is required. Move onto the KeyDoor to open it and destroy the Key. Now that the KeyDoor is open, align the agent on the horizontal axis (y=11) by moving UP. Because the agent is at y=8, it must move UP 11 - 8 = 3 times. Next, move the agent to reach the goal (x=19) by moving RIGHT. Because the agent is at x=18, it must move RIGHT 19 - 18 = 1 time.",
+    "solution": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        0,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        0,
+        2,
+        2,
+        2,
+        0,
+        2
+    ],
+    "tokens": 1026,
+    "total_steps": 25,
+    "lvl": "lvl_5d",
+    "iter": 5,
+    "meta": {
+        "model": "llama3",
+        "prompt": "cot",
+        "exp": 2,
+        "lvl": "lvl_5d"
+    }
+}

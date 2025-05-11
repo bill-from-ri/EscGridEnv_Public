@@ -1,0 +1,193 @@
+[
+    {
+        "explore_steps": 0,
+        "exploit_steps": 0,
+        "tests": [],
+        "all_hyps": [],
+        "bad_hyps": [],
+        "final_hyps": {
+            "green": "The goal that the agent must reach.",
+            "brown": "An object that the agent can move through."
+        },
+        "completed": false,
+        "solve_plan": "The agent needs to locate its current position and identify the direction towards the goal object, which is 'green'. From the grid observation, the agent's initial location is (7,6) and the green square is located at (7,19). The path between these points involves moving right without any obstacles since all cells in between are marked as 'brown' which signifies they can be moved through.",
+        "solution": [],
+        "tokens": 1315,
+        "total_steps": 0,
+        "lvl": "lvl_1"
+    },
+    {
+        "explore_steps": 0,
+        "exploit_steps": 13,
+        "tests": [],
+        "all_hyps": [],
+        "bad_hyps": [],
+        "final_hyps": {
+            "green": "The goal that the agent must reach.",
+            "brown": "An object that the agent can move through.",
+            "orange": "An object that the agent can push around.",
+            "pink": "When an orange object is pushed onto this object, the blue object disappears.",
+            "blue": "When an orange object is pushed onto the pink object, this object disappears."
+        },
+        "completed": false,
+        "solve_plan": "The agent's goal is to reach the green cell on the grid. There are obstacles (brown cells) and objects that can be manipulated (orange, blue, pink). From the current observation, there is no immediate manipulation required for any of these objects before reaching the Green goal object. The path from the 'agent' position to the 'green' position includes only brown areas which do not obstruct movement. Therefore, a direct route towards the green cell can be planned.",
+        "solution": [
+            0,
+            2,
+            1,
+            1,
+            2,
+            2,
+            0,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+        ],
+        "tokens": 1397,
+        "total_steps": 13,
+        "lvl": "lvl_3"
+    },
+    {
+        "explore_steps": 0,
+        "exploit_steps": 10,
+        "tests": [],
+        "all_hyps": [],
+        "bad_hyps": [],
+        "final_hyps": {
+            "green": "The green object is the Goal that the agent must reach.",
+            "brown": "Brown objects are False Walls. The agent can move through False Walls.",
+            "yellow": "The yellow object is a Key. The agent can pick up the Key by moving into its space. While holding the Key, the agent is colored purple.",
+            "cyan": "The cyan object is a KeyDoor. When the agent moves onto this object, the KeyDoor opens and the Key is destroyed. The agent cannot move through the KeyDoor while it is closed."
+        },
+        "completed": false,
+        "solve_plan": "The agent's goal is to reach the green Goal object which is located at (6, 18) in the grid world coordinates. However, there are brown False Walls and a cyan KeyDoor that blocks the direct path from the agent to the goal. To reach the goal, first the agent needs to pick up the yellow key by moving left twice and then down once. After picking up the key, it will turn purple. Then, the agent should move through the cyan KeyDoor (6, 17) which is adjacent to the Goal; this will open the door and destroy the key. Finally, the agent can move right one space to reach the green goal.",
+        "solution": [
+            1,
+            1,
+            2,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2
+        ],
+        "tokens": 1462,
+        "total_steps": 10,
+        "lvl": "lvl_5"
+    },
+    {
+        "explore_steps": 0,
+        "exploit_steps": 16,
+        "tests": [],
+        "all_hyps": [],
+        "bad_hyps": [],
+        "final_hyps": {
+            "green": "The goal that the agent must reach.",
+            "brown": "An object that the agent can move through.",
+            "orange": "An object that the agent can push around.",
+            "pink": "When an orange object is pushed onto this object, the blue object disappears.",
+            "blue": "When an orange object is pushed onto the pink object, this object disappears.",
+            "yellow": "When the agent moves onto this object, the agent turns purple.",
+            "cyan": "When the agent is purple and moves onto this object, this object disappears. The agent then stops being purple."
+        },
+        "completed": false,
+        "solve_plan": "The agent's goal is to reach the green cell on the grid. First, the agent must identify its current position and the location of the green Goal. From the observation, we can see that the Agent starts in a cell with orange objects directly above it, surrounded by brown cells (which are passable). The Green object is located four spaces down and two to the right of the starting point.\n\n1. Move Down once to avoid the Orange object.\n2. Move Right twice to get around the Orange object cluster.\n3. Then move Down four times to reach the row where the green goal is situated.\n4. Lastly, move Right twice to align with the column that contains the Green Goal.\n5. Finally, Move Down once to reach the green cell (Goal).\n\nNote: The agent does not need to interact with any objects along this path and can ignore all objects except for reaching its goal.",
+        "solution": [
+            1,
+            2,
+            0,
+            2,
+            2,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            0,
+            2,
+            2,
+            1,
+            2
+        ],
+        "tokens": 1546,
+        "total_steps": 16,
+        "lvl": "lvl_9"
+    },
+    {
+        "explore_steps": 0,
+        "exploit_steps": 20,
+        "tests": [],
+        "all_hyps": [],
+        "bad_hyps": [],
+        "final_hyps": {
+            "green": "The goal that the agent must reach.",
+            "brown": "An object that the agent can move through.",
+            "orange": "An object that the agent can push around.",
+            "pink": "When an orange object is pushed onto this object, the blue object disappears.",
+            "blue": "When an orange object is pushed onto the pink object, this object disappears.",
+            "grey": "A wall that the agent cannot pass through."
+        },
+        "completed": false,
+        "solve_plan": "The agent starts in a cell with coordinates (6, 5) and needs to move to a goal located at coordinates (7, 18). To get there, it has to navigate around brown spaces and avoid grey walls. It's important for the agent to notice that directly between its starting position and the goal object are several grey cells (walls), which must be circumnavigated to reach the goal. The simplest route would involve moving up one cell first to avoid an immediate wall, then navigating right over multiple brown spaces until reaching the column where the goal is located, and finally moving down a few steps to align with the row containing the green goal object.",
+        "solution": [
+            0,
+            2,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            1,
+            2,
+            0,
+            2,
+            2
+        ],
+        "tokens": 1467,
+        "total_steps": 20,
+        "lvl": "lvl_11"
+    },
+    {
+        "explore_steps": 0,
+        "exploit_steps": 7,
+        "tests": [],
+        "all_hyps": [],
+        "bad_hyps": [],
+        "final_hyps": {
+            "green": "The goal that the agent must reach.",
+            "brown": "An object that the agent can move through.",
+            "orange": "An object that the agent can push around. When pushed onto a yellow object, this object becomes purple.",
+            "yellow": "When the agent moves onto this object, the agent turns purple.",
+            "cyan": "When a purple object or agent moves onto this object, this object disappears and the purple entity reverts to its original color.",
+            "grey": "A wall that the agent cannot pass through."
+        },
+        "completed": false,
+        "solve_plan": "The agent starts in a cell surrounded by brown cells except for one orange cell to the right and two more orange cells below it, with grey walls marking some boundaries. The Goal is green and located three cells down and one cell left from the initial position of the agent, which involves moving through brown spaces only since there are no obstacles blocking this path directly.\n\nHigh-level plan: Move DOWN twice to bypass the orange cells straight ahead, then move LEFT once to align with the goal column, and finally move DOWN once more to reach the Goal object located in the designated cell.\n\nLow-level action sequence: Move DOWN (action 1), Move DOWN (action 1), Move LEFT (action 2), Move DOWN (action 1). After executing these actions, the agent will be at the same location as the green goal object.",
+        "solution": [
+            1,
+            2,
+            2,
+            1,
+            2,
+            0,
+            2
+        ],
+        "tokens": 1499,
+        "total_steps": 7,
+        "lvl": "lvl_12"
+    }
+]

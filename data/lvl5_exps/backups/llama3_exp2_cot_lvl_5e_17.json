@@ -1,0 +1,48 @@
+{
+    "explore_steps": 0,
+    "exploit_steps": 21,
+    "tests": [],
+    "all_hyps": [],
+    "bad_hyps": [],
+    "final_hyps": {
+        "green": "The green object is the Goal that the agent must reach.",
+        "brown": "Brown objects are False Walls. The agent can move through False Walls.",
+        "yellow": "The yellow object is a Key. The agent can pick up the Key by moving into its space. While holding the Key, the agent is colored purple.",
+        "cyan": "The cyan object is a KeyDoor. When the agent moves onto this object, the KeyDoor opens and the Key is destroyed. The agent cannot move through the KeyDoor while it is closed."
+    },
+    "completed": false,
+    "solve_plan": "First determine that the green object is the Goal object. Because there is a cyan object (KeyDoor) blocking the path to the goal, the agent must first pick up the yellow object (Key) by moving RIGHT. The distance between the agent and the Key is 13 - 5 = 8. Next, move DOWN to align with the KeyDoor at y=8. Then, move RIGHT to reach the KeyDoor at x=18. Because the agent is holding the Key, it will open the KeyDoor when moved onto it. Finally, move DOWN to reach the goal (y=12) and then move RIGHT to reach the goal (x=19).",
+    "solution": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        0,
+        2,
+        1,
+        2
+    ],
+    "tokens": 860,
+    "total_steps": 21,
+    "lvl": "lvl_5e",
+    "iter": 17,
+    "meta": {
+        "model": "llama3",
+        "prompt": "cot",
+        "exp": 2,
+        "lvl": "lvl_5e"
+    }
+}

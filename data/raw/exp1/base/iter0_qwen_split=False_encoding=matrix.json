@@ -1,0 +1,139 @@
+[
+    {
+        "explore_steps": 0,
+        "exploit_steps": 11,
+        "tests": [],
+        "all_hyps": [],
+        "bad_hyps": [],
+        "final_hyps": {},
+        "completed": false,
+        "solve_plan": "The Agent is currently on a 2D GridWorld and its goal is to reach a green cell, which signifies the Goal location. To achieve this, the agent needs to navigate through brown cells (which we can assume are walkable spaces) towards the goal. Based on the given map, here's an overview of how the agent could proceed: The Agent starts on a grid that has its position marked by 'agent' and the Goal is located at coordinates where 'green' appears in the matrix representation. From the current position of the Agent ('agent') to the location of the Goal ('green'), the direct path involves moving right 2 times, then down once, followed by moving right 4 more times.",
+        "solution": [
+            2,
+            2,
+            1,
+            2,
+            0,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+        ],
+        "tokens": 1355,
+        "total_steps": 11,
+        "lvl": "lvl_1"
+    },
+    {
+        "explore_steps": 0,
+        "exploit_steps": 9,
+        "tests": [],
+        "all_hyps": [],
+        "bad_hyps": [],
+        "final_hyps": {},
+        "completed": false,
+        "solve_plan": "The goal is for the agent to reach the cell containing the Goal object. First, we need to identify the location of both the Agent and the Goal in the grid environment from the provided observation. From this plan, the agent will navigate through cells marked as 'brown', which likely represent traversable terrain. Any cell that's not brown or does not contain either the agent or goal is presumably an obstacle (represented by empty spaces or other colored squares like pink, blue, green, orange). Based on the provided observation, it seems the Goal object is located at position (8, 19) and the Agent starts from position (7, 12), with 'brown' indicating walkable areas. The plan is as follows: First, move RIGHT seven times to align vertically with the goal's column. Then, move DOWN once to reach the same row as the Goal object.",
+        "solution": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            2
+        ],
+        "tokens": 1390,
+        "total_steps": 9,
+        "lvl": "lvl_3"
+    },
+    {
+        "explore_steps": 0,
+        "exploit_steps": 6,
+        "tests": [],
+        "all_hyps": [],
+        "bad_hyps": [],
+        "final_hyps": {},
+        "completed": false,
+        "solve_plan": "First, determine the location of the goal which in this case is a cyan square on the grid and its relative position with respect to the agent's current position which is marked by 'agent'. Currently, the agent is located at (4,5) coordinates (assuming top-left corner as origin [0,0]) and the goal object is located at (3,7). The plan involves moving from (4,5) up to (3,5) and then to the right towards the goal until it reaches (3,7)",
+        "solution": [
+            0,
+            2,
+            2,
+            0,
+            2,
+            2
+        ],
+        "tokens": 1305,
+        "total_steps": 6,
+        "lvl": "lvl_5"
+    },
+    {
+        "explore_steps": 0,
+        "exploit_steps": 5,
+        "tests": [],
+        "all_hyps": [],
+        "bad_hyps": [],
+        "final_hyps": {},
+        "completed": false,
+        "solve_plan": "The agent's goal is to reach a location marked with a color different from brown, which we can infer is its Goal based on the provided grid observation. From its current position (marked 'agent'), it seems that the goal (marked as a specific non-brown color - let\u2019s assume 'green' for this example) lies downwards and slightly to the right of the agent's current position. The plan should involve moving down first, then to the right until reaching the Goal.",
+        "solution": [
+            1,
+            2,
+            0,
+            2,
+            2
+        ],
+        "tokens": 1319,
+        "total_steps": 5,
+        "lvl": "lvl_9"
+    },
+    {
+        "explore_steps": 0,
+        "exploit_steps": 10,
+        "tests": [],
+        "all_hyps": [],
+        "bad_hyps": [],
+        "final_hyps": {},
+        "completed": false,
+        "solve_plan": "The agent's goal is to reach a specific cell in the grid which contains a 'goal' token (though not mentioned in this observation, we'll assume it exists somewhere based on common task descriptions). The agent starts at coordinates (4, 17) as indicated by its position on the y-axis (row index starting from top-down) and x-axis (column index starting left-right), where there is a 'grey' object and an adjacent 'green' one. However, in the provided observation text, no specific token for goal is explicitly given but based on typical GridWorld task formulations, we'll infer that the agent has to reach some designated cell containing a unique identifier like 'goal'. A critical step would be identifying this target location first.\n\nFrom its current position (4, 17), the agent needs to move towards the goal. Since there is no visual clue about where the goal might lie from the given map snippet, let's assume for planning purposes that the goal token is located at an unoccupied cell in proximity; a common target location would be on or adjacent to the boundary of obstacles since goals are often placed strategically outside hazardous zones.\n\nFrom (4, 17), considering there are 'brown' obstacles blocking direct downward movement and no immediate visible path to a clear goal placement from the provided map snippet, a reasonable inference might involve moving horizontally rightwards or vertically upwards depending on grid boundaries and potential hidden information not shown in this map segment.",
+        "solution": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+        ],
+        "tokens": 1511,
+        "total_steps": 10,
+        "lvl": "lvl_11"
+    },
+    {
+        "explore_steps": 0,
+        "exploit_steps": 6,
+        "tests": [],
+        "all_hyps": [],
+        "bad_hyps": [],
+        "final_hyps": {},
+        "completed": false,
+        "solve_plan": "The agent's goal is to reach a cell containing the Goal object. From the observation, there isn't an explicit depiction of what constitutes the Goal object in color or designation (since only 'agent', 'brown', 'orange', 'yellow', 'cyan', and 'green' are mentioned). For this plan, let us assume that the 'Goal' is a cell marked uniquely by a different identifier not present currently. However, if we infer based on common practice, often in GridWorlds, an unoccupied space near significant elements can be considered for goal placement or a specific color like green could indicate the Goal (as it's distinct from others). Given the grid provided and assuming that 'green' signifies the Goal object, here is how to proceed: The agent starts on a cell with coordinates relative to its position. From the observation, the agent ('agent') is at row 8, column 16. The only green ('Goal') is located at row 9, column 20 in this grid layout (assuming that indexing starts from 0). Hence, the high-level plan would be for the agent to move right 4 times and then down once.",
+        "solution": [
+            2,
+            2,
+            2,
+            2,
+            1,
+            2
+        ],
+        "tokens": 1448,
+        "total_steps": 6,
+        "lvl": "lvl_12"
+    }
+]

@@ -1,0 +1,135 @@
+[
+    {
+        "explore_steps": 0,
+        "exploit_steps": 1,
+        "tests": [],
+        "all_hyps": [],
+        "bad_hyps": [],
+        "final_hyps": {},
+        "completed": false,
+        "solve_plan": "The goal object is the green object located at coordinates (19, 8). Since both the agent and the goal are on the y=8 line, we only need to align the agent horizontally to reach the goal. The agent needs to move RIGHT from x=5 to x=19, which requires moving RIGHT a total of 19 - 5 = 14 times.",
+        "solution": [
+            2
+        ],
+        "tokens": 522,
+        "total_steps": 1,
+        "lvl": "lvl_1"
+    },
+    {
+        "explore_steps": 0,
+        "exploit_steps": 2,
+        "tests": [],
+        "all_hyps": [],
+        "bad_hyps": [],
+        "final_hyps": {},
+        "completed": false,
+        "solve_plan": "First determine that the green object is the Goal object. To align with the goal on the y-axis (y=9), move DOWN once from y=8. Now, the agent is at y=9 and needs to reach x=19 by moving RIGHT. Since the agent's current position in x-coordinate is 5, it must move RIGHT a total of 19 - 5 = 14 times.",
+        "solution": [
+            0,
+            2
+        ],
+        "tokens": 561,
+        "total_steps": 2,
+        "lvl": "lvl_3"
+    },
+    {
+        "explore_steps": 0,
+        "exploit_steps": 1,
+        "tests": [],
+        "all_hyps": [],
+        "bad_hyps": [],
+        "final_hyps": {},
+        "completed": false,
+        "solve_plan": "First determine that the green object is the Goal object. Align the agent on the horizontal axis (y=8) by moving neither down nor up, since it already aligns with y=8. Next, move the agent to reach the goal x position of 19 by moving RIGHT repeatedly. Because the agent starts at x=5, it must move RIGHT a total of 14 times.",
+        "solution": [
+            2
+        ],
+        "tokens": 549,
+        "total_steps": 1,
+        "lvl": "lvl_5"
+    },
+    {
+        "explore_steps": 0,
+        "exploit_steps": 1,
+        "tests": [],
+        "all_hyps": [],
+        "bad_hyps": [],
+        "final_hyps": {},
+        "completed": false,
+        "solve_plan": "First identify that the green object located at (19, 9) is the goal object. Since there's an obstacle along the y-axis (i.e., no direct path down because of orange objects), align the agent on x=6 to reach y=9 first, moving RIGHT once and then DOWN eleven times. From there move RIGHT thirteen more times to reach the goal position.",
+        "solution": [
+            2
+        ],
+        "tokens": 766,
+        "total_steps": 1,
+        "lvl": "lvl_9"
+    },
+    {
+        "explore_steps": 0,
+        "exploit_steps": 25,
+        "tests": [],
+        "all_hyps": [],
+        "bad_hyps": [],
+        "final_hyps": {},
+        "completed": false,
+        "solve_plan": "First determine that the green object at (19, 9) is the Goal object. Align the agent on the vertical axis by moving DOWN until reaching y=8 (since there's a grey obstacle directly above goal). Then move RIGHT to reach x-coordinate of 19 and then move one step down to align with y=9 coordinate.",
+        "solution": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            0,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            1,
+            2
+        ],
+        "tokens": 781,
+        "total_steps": 25,
+        "lvl": "lvl_11"
+    },
+    {
+        "explore_steps": 0,
+        "exploit_steps": 13,
+        "tests": [],
+        "all_hyps": [],
+        "bad_hyps": [],
+        "final_hyps": {},
+        "completed": false,
+        "solve_plan": "First determine that the green object at (19, 9) is the Goal object. To reach the goal, align the agent on the vertical axis by moving DOWN four times from y=8 to y=9. Next, move the agent to reach the x-axis of the goal by moving RIGHT twice from x=5 to x=7 and then once more from x=7 to x=9.",
+        "solution": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            0,
+            2,
+            2,
+            2,
+            0,
+            2,
+            1,
+            2
+        ],
+        "tokens": 803,
+        "total_steps": 13,
+        "lvl": "lvl_12"
+    }
+]
