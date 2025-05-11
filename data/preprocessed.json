@@ -1,0 +1,117 @@
+{
+    "byAffs": {
+        "exp1": {
+            "Resourcefulness": 69,
+            "Interaction": 31,
+            "Accuracy": 5,
+            "Completeness": 14,
+            "Total": 216
+        },
+        "exp2": {
+            "Resourcefulness": 127,
+            "Interaction": 37,
+            "Accuracy": 23,
+            "Completeness": 11,
+            "Total": 216
+        }
+    },
+    "byLevel": {
+        "lvl_1": {
+            "Resourcefulness": 21,
+            "Interaction": 5,
+            "Accuracy": 0,
+            "Completeness": 12,
+            "Total": 72
+        },
+        "lvl_3": {
+            "Resourcefulness": 29,
+            "Interaction": 9,
+            "Accuracy": 2,
+            "Completeness": 0,
+            "Total": 72
+        },
+        "lvl_5": {
+            "Resourcefulness": 40,
+            "Interaction": 22,
+            "Accuracy": 10,
+            "Completeness": 11,
+            "Total": 72
+        },
+        "lvl_9": {
+            "Resourcefulness": 39,
+            "Interaction": 13,
+            "Accuracy": 8,
+            "Completeness": 2,
+            "Total": 72
+        },
+        "lvl_11": {
+            "Resourcefulness": 34,
+            "Interaction": 9,
+            "Accuracy": 6,
+            "Completeness": 0,
+            "Total": 72
+        },
+        "lvl_12": {
+            "Resourcefulness": 33,
+            "Interaction": 10,
+            "Accuracy": 2,
+            "Completeness": 0,
+            "Total": 72
+        }
+    },
+    "byEncoding": {
+        "matrix": {
+            "Resourcefulness": 86,
+            "Interaction": 25,
+            "Accuracy": 9,
+            "Completeness": 3,
+            "Total": 216
+        },
+        "text": {
+            "Resourcefulness": 110,
+            "Interaction": 43,
+            "Accuracy": 19,
+            "Completeness": 22,
+            "Total": 216
+        }
+    },
+    "byPrompt": {
+        "base": {
+            "Resourcefulness": 116,
+            "Interaction": 28,
+            "Accuracy": 12,
+            "Completeness": 7,
+            "Total": 216
+        },
+        "cot": {
+            "Resourcefulness": 80,
+            "Interaction": 40,
+            "Accuracy": 16,
+            "Completeness": 18,
+            "Total": 216
+        }
+    },
+    "byModel": {
+        "llama3": {
+            "Resourcefulness": 51,
+            "Interaction": 29,
+            "Accuracy": 6,
+            "Completeness": 11,
+            "Total": 144
+        },
+        "qwen": {
+            "Resourcefulness": 102,
+            "Interaction": 32,
+            "Accuracy": 21,
+            "Completeness": 9,
+            "Total": 144
+        },
+        "deepseek": {
+            "Resourcefulness": 43,
+            "Interaction": 7,
+            "Accuracy": 1,
+            "Completeness": 5,
+            "Total": 144
+        }
+    }
+}

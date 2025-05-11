@@ -53,7 +53,7 @@ def detect_gap(env) -> tuple[int, int]:
 
 # Functions. - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-def obs(env) -> list[str]:
+def obs(env):
     '''
     Generates a symbolic (matrix) representation of a MiniGrid environment.
 
@@ -89,11 +89,6 @@ def obs(env) -> list[str]:
     # Get agent position.
     agentPos = get_agentPos(env)
     encoding[agentPos[1]][agentPos[0]] = 'agent'
-
-    # Convert to string.
-    encoding = '\n'.join([
-        str(row) for row in encoding
-    ])
 
     return encoding
 

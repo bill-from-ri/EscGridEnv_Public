@@ -1,0 +1,100 @@
+{
+    "lvl_1": {
+        "Resourcefulness": 0,
+        "Interaction": 19,
+        "Accuracy": 0,
+        "Completeness": 100,
+        "Total": 100
+    },
+    "lvl_2": {
+        "Resourcefulness": 0,
+        "Interaction": 0,
+        "Accuracy": 0,
+        "Completeness": 0,
+        "Total": 0
+    },
+    "lvl_3": {
+        "Resourcefulness": 0,
+        "Interaction": 35,
+        "Accuracy": 0,
+        "Completeness": 15,
+        "Total": 100
+    },
+    "lvl_4": {
+        "Resourcefulness": 0,
+        "Interaction": 0,
+        "Accuracy": 0,
+        "Completeness": 0,
+        "Total": 0
+    },
+    "lvl_5": {
+        "Resourcefulness": 0,
+        "Interaction": 95,
+        "Accuracy": 0,
+        "Completeness": 100,
+        "Total": 100
+    },
+    "lvl_6": {
+        "Resourcefulness": 0,
+        "Interaction": 0,
+        "Accuracy": 0,
+        "Completeness": 0,
+        "Total": 0
+    },
+    "lvl_7": {
+        "Resourcefulness": 0,
+        "Interaction": 0,
+        "Accuracy": 0,
+        "Completeness": 0,
+        "Total": 0
+    },
+    "lvl_8": {
+        "Resourcefulness": 0,
+        "Interaction": 0,
+        "Accuracy": 0,
+        "Completeness": 0,
+        "Total": 0
+    },
+    "lvl_9": {
+        "Resourcefulness": 0,
+        "Interaction": 52,
+        "Accuracy": 0,
+        "Completeness": 78,
+        "Total": 100
+    },
+    "lvl_10": {
+        "Resourcefulness": 0,
+        "Interaction": 0,
+        "Accuracy": 0,
+        "Completeness": 0,
+        "Total": 0
+    },
+    "lvl_11": {
+        "Resourcefulness": 0,
+        "Interaction": 37,
+        "Accuracy": 0,
+        "Completeness": 0,
+        "Total": 100
+    },
+    "lvl_12": {
+        "Resourcefulness": 0,
+        "Interaction": 14,
+        "Accuracy": 0,
+        "Completeness": 0,
+        "Total": 100
+    },
+    "lvl_13a": {
+        "Resourcefulness": 0,
+        "Interaction": 0,
+        "Accuracy": 0,
+        "Completeness": 0,
+        "Total": 0
+    },
+    "lvl_13b": {
+        "Resourcefulness": 0,
+        "Interaction": 0,
+        "Accuracy": 0,
+        "Completeness": 0,
+        "Total": 0
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "lvl_5": {
+        "Resourcefulness": 0,
+        "Interaction": 96,
+        "Accuracy": 0,
+        "Completeness": 98,
+        "Total": 100
+    },
+    "lvl_5b": {
+        "Resourcefulness": 0,
+        "Interaction": 99,
+        "Accuracy": 0,
+        "Completeness": 36,
+        "Total": 100
+    },
+    "lvl_5c": {
+        "Resourcefulness": 0,
+        "Interaction": 99,
+        "Accuracy": 0,
+        "Completeness": 19,
+        "Total": 100
+    },
+    "lvl_5d": {
+        "Resourcefulness": 0,
+        "Interaction": 99,
+        "Accuracy": 0,
+        "Completeness": 6,
+        "Total": 100
+    },
+    "lvl_5e": {
+        "Resourcefulness": 0,
+        "Interaction": 98,
+        "Accuracy": 0,
+        "Completeness": 3,
+        "Total": 100
+    }
+}
